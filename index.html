@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SAT Day6 Ultimate V4 隐藏答案练习版</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Microsoft YaHei",sans-serif;background:#f4f6f8;color:#111;line-height:1.65}
+header{position:sticky;top:0;background:white;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,.08);z-index:10}
+header h1{font-size:22px;margin:0 0 6px}header p{margin:0;color:#666;font-size:15px}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.nav a,.topbtn{border:0;border-radius:999px;padding:8px 12px;background:#111;color:white;text-decoration:none;font-size:15px;cursor:pointer}
+.gray{background:#555!important}.audio-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.container{max-width:920px;margin:0 auto;padding:14px}.section-title{font-size:30px;background:#eaf0ff;padding:16px;border-radius:18px;margin:22px 0 14px}
+.card,.panel{background:#fff;border-radius:20px;padding:24px;margin:18px 0;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:10px}h2{font-size:34px;margin:0 0 16px}
+.sound{width:100%;display:block;font-size:28px;font-weight:650;padding:14px 12px;margin:6px 0 14px;background:#fff;border:2px solid #e2e2e2;border-radius:14px;cursor:pointer;text-align:left}
+.word{border-bottom:1px dotted #888}.ipa,.spell{font-size:23px;margin:10px 0;color:#222}.spell{color:#555}.sentence{font-size:24px;line-height:1.45}
+p,li{font-size:24px;margin:16px 0}.info{border-left:5px solid #ddd;padding-left:14px;margin-top:18px}.sub{margin-top:28px}
+.smallbtn{border:0;border-radius:999px;padding:9px 14px;font-size:16px;background:#111;color:white;cursor:pointer;white-space:nowrap}
+.teacher,.answerbox{margin-top:14px;border:1px solid #e5e5e5;border-radius:14px;padding:12px 14px;background:#fafafa}
+.teacher summary,.answerbox summary{font-size:22px;font-weight:700;cursor:pointer}.story{font-size:23px;white-space:pre-line}.footer{text-align:center;color:#666;padding:28px 10px 40px}
+@media(max-width:600px){.container{padding:10px}.card,.panel{padding:20px 16px;border-radius:18px}h2{font-size:30px}.sound{font-size:24px;padding:13px 10px}.sentence{font-size:21px}p,li,.ipa,.spell{font-size:21px}header h1{font-size:20px}.section-title{font-size:25px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>SAT 高频1000词｜Day 6 Ultimate V4 教师练习版</h1>
+  <p>新增：短文主旨句提问、隐藏答案、单词填空练习、隐藏答案。</p>
+  <div class="nav"><a href="#vocab">词汇卡</a><a href="#reading">阅读短文</a><a href="#cloze">填空练习</a><button class="topbtn" onclick="playAll()">▶ 播放 Day6 全部</button></div>
+</header>
+<main class="container">
+<h1 id="vocab" class="section-title">Day 6 词汇卡｜146–174</h1>
+
+<article class="card">
+  <div class="topline"><h2>146. bard</h2><button class="smallbtn" onclick='playBoth("bard", "Shakespeare is often regarded as the greatest bard in English literature.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bard",0.78)'>🔊 <span class="word">bard</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɑːrd/</p>
+  <p class="spell"><b>拼读：</b>bard</p>
+  <div class="info"><p><b>中文：</b>诗人；吟游诗人</p><p><b>英文：</b>a poet, especially one who writes or recites verses</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("Shakespeare is often regarded as the greatest bard in English literature.",0.82)'>🔊 Shakespeare is often regarded as the greatest bard in English literature.</button>
+  <p><b>SAT例句：</b><br>Shakespeare is often regarded as the greatest bard in English literature.</p>
+  <p><b>中文翻译：</b><br>莎士比亚常被认为是英国文学中最伟大的诗人。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT中常见于文学语境。看到 the Bard，常常特指 Shakespeare。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>147. bashful</h2><button class="smallbtn" onclick='playBoth("bashful", "The bashful student spoke softly during the class presentation.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bashful",0.78)'>🔊 <span class="word">bashful</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbæʃ.fəl/</p>
+  <p class="spell"><b>拼读：</b>BASH-ful</p>
+  <div class="info"><p><b>中文：</b>害羞的；腼腆的</p><p><b>英文：</b>shy or easily embarrassed</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The bashful student spoke softly during the class presentation.",0.82)'>🔊 The bashful student spoke softly during the class presentation.</button>
+  <p><b>SAT例句：</b><br>The bashful student spoke softly during the class presentation.</p>
+  <p><b>中文翻译：</b><br>这位害羞的学生在课堂展示时说话很轻。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常与 shy, timid, reserved 相关。注意它通常不是负面词，而是性格害羞。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>148. battery</h2><button class="smallbtn" onclick='playBoth("battery", "The scientist tested the battery before starting the experiment.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("battery",0.78)'>🔊 <span class="word">battery</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbæt̬.ɚ.i/</p>
+  <p class="spell"><b>拼读：</b>BAT-er-ee</p>
+  <div class="info"><p><b>中文：</b>电池；殴打；一连串</p><p><b>英文：</b>a device that stores energy; an assault; a series</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The scientist tested the battery before starting the experiment.",0.82)'>🔊 The scientist tested the battery before starting the experiment.</button>
+  <p><b>SAT例句：</b><br>The scientist tested the battery before starting the experiment.</p>
+  <p><b>中文翻译：</b><br>科学家在开始实验前测试了电池。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT中可能考一词多义：battery 不只表示电池，也可表示“一连串”或“殴打”。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>149. beguile</h2><button class="smallbtn" onclick='playBoth("beguile", "The magician used clever tricks to beguile the audience.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("beguile",0.78)'>🔊 <span class="word">beguile</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈɡaɪl/</p>
+  <p class="spell"><b>拼读：</b>bih-GYLE</p>
+  <div class="info"><p><b>中文：</b>欺骗；迷住</p><p><b>英文：</b>to charm or deceive</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The magician used clever tricks to beguile the audience.",0.82)'>🔊 The magician used clever tricks to beguile the audience.</button>
+  <p><b>SAT例句：</b><br>The magician used clever tricks to beguile the audience.</p>
+  <p><b>中文翻译：</b><br>魔术师用巧妙的把戏迷住了观众。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>核心是“用魅力迷惑”。既可表示吸引，也可表示欺骗。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>150. behemoth</h2><button class="smallbtn" onclick='playBoth("behemoth", "The small company grew into a behemoth in the technology industry.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("behemoth",0.78)'>🔊 <span class="word">behemoth</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈhiː.məθ/</p>
+  <p class="spell"><b>拼读：</b>bih-HEE-muth</p>
+  <div class="info"><p><b>中文：</b>庞然大物</p><p><b>英文：</b>something enormous and powerful</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The small company grew into a behemoth in the technology industry.",0.82)'>🔊 The small company grew into a behemoth in the technology industry.</button>
+  <p><b>SAT例句：</b><br>The small company grew into a behemoth in the technology industry.</p>
+  <p><b>中文翻译：</b><br>这家小公司成长为科技行业的庞然大物。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常用于商业、科技、政治领域，形容巨大而有影响力的组织或事物。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>151. benevolent</h2><button class="smallbtn" onclick='playBoth("benevolent", "The benevolent donor paid for the students’ art supplies.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("benevolent",0.78)'>🔊 <span class="word">benevolent</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bəˈnev.əl.ənt/</p>
+  <p class="spell"><b>拼读：</b>buh-NEV-uh-lunt</p>
+  <div class="info"><p><b>中文：</b>仁慈的；乐善好施的</p><p><b>英文：</b>kind, generous, and willing to help</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The benevolent donor paid for the students’ art supplies.",0.82)'>🔊 The benevolent donor paid for the students’ art supplies.</button>
+  <p><b>SAT例句：</b><br>The benevolent donor paid for the students’ art supplies.</p>
+  <p><b>中文翻译：</b><br>这位仁慈的捐赠者为学生们支付了美术用品费用。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>bene- 表示 good，好。常与 malevolent 形成反义。SAT高频。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>152. benign</h2><button class="smallbtn" onclick='playBoth("benign", "The doctor said the tumor was benign and not dangerous.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("benign",0.78)'>🔊 <span class="word">benign</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈnaɪn/</p>
+  <p class="spell"><b>拼读：</b>bih-NINE</p>
+  <div class="info"><p><b>中文：</b>良性的；温和的；无害的</p><p><b>英文：</b>gentle, mild, or not harmful</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The doctor said the tumor was benign and not dangerous.",0.82)'>🔊 The doctor said the tumor was benign and not dangerous.</button>
+  <p><b>SAT例句：</b><br>The doctor said the tumor was benign and not dangerous.</p>
+  <p><b>中文翻译：</b><br>医生说这个肿瘤是良性的，没有危险。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>医学和抽象语境都常见。反义词 malignant。SAT和科学阅读常考。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>153. bequeath</h2><button class="smallbtn" onclick='playBoth("bequeath", "The old artist chose to bequeath his studio to young painters.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bequeath",0.78)'>🔊 <span class="word">bequeath</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈkwiːð/</p>
+  <p class="spell"><b>拼读：</b>bih-KWEETH</p>
+  <div class="info"><p><b>中文：</b>遗赠；传给</p><p><b>英文：</b>to leave or pass on to someone</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The old artist chose to bequeath his studio to young painters.",0.82)'>🔊 The old artist chose to bequeath his studio to young painters.</button>
+  <p><b>SAT例句：</b><br>The old artist chose to bequeath his studio to young painters.</p>
+  <p><b>中文翻译：</b><br>这位老艺术家选择把工作室遗赠给年轻画家。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常用于遗产、传统、文化传承。bequeath A to B = 把A遗赠给B。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>154. berate</h2><button class="smallbtn" onclick='playBoth("berate", "The coach did not berate the team after the loss; he encouraged them instead.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("berate",0.78)'>🔊 <span class="word">berate</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈreɪt/</p>
+  <p class="spell"><b>拼读：</b>bih-RAYT</p>
+  <div class="info"><p><b>中文：</b>严厉斥责</p><p><b>英文：</b>to scold harshly</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The coach did not berate the team after the loss; he encouraged them instead.",0.82)'>🔊 The coach did not berate the team after the loss; he encouraged them instead.</button>
+  <p><b>SAT例句：</b><br>The coach did not berate the team after the loss; he encouraged them instead.</p>
+  <p><b>中文翻译：</b><br>失败后，教练没有严厉斥责队员，而是鼓励他们。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>比 scold 更强烈，带有 harsh criticism 的感觉。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>155. bereft</h2><button class="smallbtn" onclick='playBoth("bereft", "After the storm, the family was bereft of shelter and food.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bereft",0.78)'>🔊 <span class="word">bereft</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈreft/</p>
+  <p class="spell"><b>拼读：</b>bih-REFT</p>
+  <div class="info"><p><b>中文：</b>丧失的；缺少的</p><p><b>英文：</b>deprived of or lacking something</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("After the storm, the family was bereft of shelter and food.",0.82)'>🔊 After the storm, the family was bereft of shelter and food.</button>
+  <p><b>SAT例句：</b><br>After the storm, the family was bereft of shelter and food.</p>
+  <p><b>中文翻译：</b><br>暴风雨过后，这家人失去了住所和食物。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见搭配：bereft of hope / meaning / support。语气较文学。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>156. beseech</h2><button class="smallbtn" onclick='playBoth("beseech", "The villagers beseeched the leader for help during the famine.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("beseech",0.78)'>🔊 <span class="word">beseech</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪˈsiːtʃ/</p>
+  <p class="spell"><b>拼读：</b>bih-SEECH</p>
+  <div class="info"><p><b>中文：</b>恳求；哀求</p><p><b>英文：</b>to beg urgently</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The villagers beseeched the leader for help during the famine.",0.82)'>🔊 The villagers beseeched the leader for help during the famine.</button>
+  <p><b>SAT例句：</b><br>The villagers beseeched the leader for help during the famine.</p>
+  <p><b>中文翻译：</b><br>饥荒期间，村民们恳求领袖帮助。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>比 ask 更强烈，含有迫切、低姿态请求的感觉。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>157. bias</h2><button class="smallbtn" onclick='playBoth("bias", "The researcher tried to remove bias from the survey.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bias",0.78)'>🔊 <span class="word">bias</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbaɪ.əs/</p>
+  <p class="spell"><b>拼读：</b>BY-us</p>
+  <div class="info"><p><b>中文：</b>偏见；倾向</p><p><b>英文：</b>a preference or prejudice that affects judgment</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The researcher tried to remove bias from the survey.",0.82)'>🔊 The researcher tried to remove bias from the survey.</button>
+  <p><b>SAT例句：</b><br>The researcher tried to remove bias from the survey.</p>
+  <p><b>中文翻译：</b><br>研究者试图消除调查中的偏见。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT超高频。bias ≠ opinion；bias 是影响判断的倾向或偏见。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>158. bilk</h2><button class="smallbtn" onclick='playBoth("bilk", "The dishonest seller tried to bilk customers with fake products.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bilk",0.78)'>🔊 <span class="word">bilk</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɪlk/</p>
+  <p class="spell"><b>拼读：</b>bilk</p>
+  <div class="info"><p><b>中文：</b>诈骗；骗取</p><p><b>英文：</b>to cheat or defraud</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The dishonest seller tried to bilk customers with fake products.",0.82)'>🔊 The dishonest seller tried to bilk customers with fake products.</button>
+  <p><b>SAT例句：</b><br>The dishonest seller tried to bilk customers with fake products.</p>
+  <p><b>中文翻译：</b><br>不诚实的卖家试图用假货诈骗顾客。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常用于金融、商业欺诈语境。和 cheat, defraud 接近。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>159. blandish</h2><button class="smallbtn" onclick='playBoth("blandish", "He tried to blandish the judge with excessive praise.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("blandish",0.78)'>🔊 <span class="word">blandish</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈblæn.dɪʃ/</p>
+  <p class="spell"><b>拼读：</b>BLAN-dish</p>
+  <div class="info"><p><b>中文：</b>奉承；哄骗</p><p><b>英文：</b>to persuade with flattery</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("He tried to blandish the judge with excessive praise.",0.82)'>🔊 He tried to blandish the judge with excessive praise.</button>
+  <p><b>SAT例句：</b><br>He tried to blandish the judge with excessive praise.</p>
+  <p><b>中文翻译：</b><br>他试图用过度赞美来讨好法官。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>重点在“用甜言蜜语说服”。与 flatter, cajole 相关。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>160. blemish</h2><button class="smallbtn" onclick='playBoth("blemish", "One small blemish on the painting lowered its value.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("blemish",0.78)'>🔊 <span class="word">blemish</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈblem.ɪʃ/</p>
+  <p class="spell"><b>拼读：</b>BLEM-ish</p>
+  <div class="info"><p><b>中文：</b>瑕疵；污点</p><p><b>英文：</b>a flaw or mark that spoils something</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("One small blemish on the painting lowered its value.",0.82)'>🔊 One small blemish on the painting lowered its value.</button>
+  <p><b>SAT例句：</b><br>One small blemish on the painting lowered its value.</p>
+  <p><b>中文翻译：</b><br>画上的一个小瑕疵降低了它的价值。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>可指外表瑕疵，也可指名誉污点。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>161. blight</h2><button class="smallbtn" onclick='playBoth("blight", "Poverty became a blight on the once thriving town.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("blight",0.78)'>🔊 <span class="word">blight</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/blaɪt/</p>
+  <p class="spell"><b>拼读：</b>blyte</p>
+  <div class="info"><p><b>中文：</b>枯萎病；毁灭性事物</p><p><b>英文：</b>a disease or force that damages or ruins</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("Poverty became a blight on the once thriving town.",0.82)'>🔊 Poverty became a blight on the once thriving town.</button>
+  <p><b>SAT例句：</b><br>Poverty became a blight on the once thriving town.</p>
+  <p><b>中文翻译：</b><br>贫困成了这个曾经繁荣小镇的毁灭性问题。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT常用抽象义：a blight on society = 社会祸害。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>162. boisterous</h2><button class="smallbtn" onclick='playBoth("boisterous", "The boisterous children filled the room with laughter.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("boisterous",0.78)'>🔊 <span class="word">boisterous</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbɔɪ.stɚ.əs/</p>
+  <p class="spell"><b>拼读：</b>BOY-ster-us</p>
+  <div class="info"><p><b>中文：</b>喧闹的；精力旺盛的</p><p><b>英文：</b>noisy, energetic, and cheerful</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The boisterous children filled the room with laughter.",0.82)'>🔊 The boisterous children filled the room with laughter.</button>
+  <p><b>SAT例句：</b><br>The boisterous children filled the room with laughter.</p>
+  <p><b>中文翻译：</b><br>精力旺盛的孩子们让房间充满笑声。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>不是单纯吵闹，常带活泼、热闹的感觉。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>163. bombastic</h2><button class="smallbtn" onclick='playBoth("bombastic", "The speaker’s bombastic speech sounded grand but said little.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bombastic",0.78)'>🔊 <span class="word">bombastic</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/bɑːmˈbæs.tɪk/</p>
+  <p class="spell"><b>拼读：</b>bom-BAS-tik</p>
+  <div class="info"><p><b>中文：</b>夸夸其谈的；浮夸的</p><p><b>英文：</b>using impressive words without much meaning</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The speaker’s bombastic speech sounded grand but said little.",0.82)'>🔊 The speaker’s bombastic speech sounded grand but said little.</button>
+  <p><b>SAT例句：</b><br>The speaker’s bombastic speech sounded grand but said little.</p>
+  <p><b>中文翻译：</b><br>演讲者浮夸的演讲听起来宏大，却内容很少。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT常考写作风格：语言华丽但空洞。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>164. boon</h2><button class="smallbtn" onclick='playBoth("boon", "The new library was a boon to students in the community.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("boon",0.78)'>🔊 <span class="word">boon</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/buːn/</p>
+  <p class="spell"><b>拼读：</b>boon</p>
+  <div class="info"><p><b>中文：</b>恩惠；益处</p><p><b>英文：</b>something helpful or beneficial</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The new library was a boon to students in the community.",0.82)'>🔊 The new library was a boon to students in the community.</button>
+  <p><b>SAT例句：</b><br>The new library was a boon to students in the community.</p>
+  <p><b>中文翻译：</b><br>新图书馆对社区学生来说是一大益处。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见搭配：a boon to/for。表示“好处、福利”。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>165. bourgeois</h2><button class="smallbtn" onclick='playBoth("bourgeois", "The novel mocked bourgeois values and social ambition.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("bourgeois",0.78)'>🔊 <span class="word">bourgeois</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˌbʊrˈʒwɑː/</p>
+  <p class="spell"><b>拼读：</b>boor-ZHWAH</p>
+  <div class="info"><p><b>中文：</b>中产阶级的；庸俗市侩的</p><p><b>英文：</b>middle-class; conventional or materialistic</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The novel mocked bourgeois values and social ambition.",0.82)'>🔊 The novel mocked bourgeois values and social ambition.</button>
+  <p><b>SAT例句：</b><br>The novel mocked bourgeois values and social ambition.</p>
+  <p><b>中文翻译：</b><br>这部小说讽刺了中产阶级价值观和社会野心。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>文学和社会评论中常见。可中性，也可带贬义。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>166. brazen</h2><button class="smallbtn" onclick='playBoth("brazen", "The brazen thief stole the wallet in broad daylight.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("brazen",0.78)'>🔊 <span class="word">brazen</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbreɪ.zən/</p>
+  <p class="spell"><b>拼读：</b>BRAY-zun</p>
+  <div class="info"><p><b>中文：</b>厚颜无耻的；明目张胆的</p><p><b>英文：</b>bold and without shame</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The brazen thief stole the wallet in broad daylight.",0.82)'>🔊 The brazen thief stole the wallet in broad daylight.</button>
+  <p><b>SAT例句：</b><br>The brazen thief stole the wallet in broad daylight.</p>
+  <p><b>中文翻译：</b><br>这个厚颜无耻的小偷在光天化日之下偷了钱包。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>重点是 shameless boldness。不是普通的 brave。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>167. brusque</h2><button class="smallbtn" onclick='playBoth("brusque", "His brusque reply made the visitor feel unwelcome.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("brusque",0.78)'>🔊 <span class="word">brusque</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/brʌsk/</p>
+  <p class="spell"><b>拼读：</b>brusk</p>
+  <div class="info"><p><b>中文：</b>唐突的；生硬无礼的</p><p><b>英文：</b>abrupt or blunt in manner</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("His brusque reply made the visitor feel unwelcome.",0.82)'>🔊 His brusque reply made the visitor feel unwelcome.</button>
+  <p><b>SAT例句：</b><br>His brusque reply made the visitor feel unwelcome.</p>
+  <p><b>中文翻译：</b><br>他唐突的回答让访客感到不受欢迎。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>形容说话方式生硬、简短、没礼貌。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>168. buffet</h2><button class="smallbtn" onclick='playBoth("buffet", "Strong waves began to buffet the small boat.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("buffet",0.78)'>🔊 <span class="word">buffet</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbʌf.ɪt/</p>
+  <p class="spell"><b>拼读：</b>BUF-it</p>
+  <div class="info"><p><b>中文：</b>自助餐；猛烈打击</p><p><b>英文：</b>a meal with self-service; to strike repeatedly</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("Strong waves began to buffet the small boat.",0.82)'>🔊 Strong waves began to buffet the small boat.</button>
+  <p><b>SAT例句：</b><br>Strong waves began to buffet the small boat.</p>
+  <p><b>中文翻译：</b><br>强浪开始猛烈拍打那艘小船。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>注意一词多义。作动词时意思是反复冲击。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>169. burnish</h2><button class="smallbtn" onclick='playBoth("burnish", "The leader tried to burnish his reputation after the scandal.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("burnish",0.78)'>🔊 <span class="word">burnish</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbɝː.nɪʃ/</p>
+  <p class="spell"><b>拼读：</b>BUR-nish</p>
+  <div class="info"><p><b>中文：</b>擦亮；润色</p><p><b>英文：</b>to polish or make shiny</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The leader tried to burnish his reputation after the scandal.",0.82)'>🔊 The leader tried to burnish his reputation after the scandal.</button>
+  <p><b>SAT例句：</b><br>The leader tried to burnish his reputation after the scandal.</p>
+  <p><b>中文翻译：</b><br>丑闻之后，那位领导试图修复自己的名声。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>可指物理擦亮，也可指提升形象、润色名声。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>170. buttress</h2><button class="smallbtn" onclick='playBoth("buttress", "The writer used statistics to buttress her argument.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("buttress",0.78)'>🔊 <span class="word">buttress</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈbʌt.rəs/</p>
+  <p class="spell"><b>拼读：</b>BUT-rus</p>
+  <div class="info"><p><b>中文：</b>支撑；加强</p><p><b>英文：</b>to support or strengthen</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The writer used statistics to buttress her argument.",0.82)'>🔊 The writer used statistics to buttress her argument.</button>
+  <p><b>SAT例句：</b><br>The writer used statistics to buttress her argument.</p>
+  <p><b>中文翻译：</b><br>作者用统计数据来支撑她的论点。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT写作和阅读高频。buttress an argument = 支撑论点。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>171. cacophony</h2><button class="smallbtn" onclick='playBoth("cacophony", "The cacophony of traffic made it hard to concentrate.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("cacophony",0.78)'>🔊 <span class="word">cacophony</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/kəˈkɑː.fə.ni/</p>
+  <p class="spell"><b>拼读：</b>kuh-KAH-fuh-nee</p>
+  <div class="info"><p><b>中文：</b>刺耳噪音；不和谐音</p><p><b>英文：</b>harsh or unpleasant noise</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The cacophony of traffic made it hard to concentrate.",0.82)'>🔊 The cacophony of traffic made it hard to concentrate.</button>
+  <p><b>SAT例句：</b><br>The cacophony of traffic made it hard to concentrate.</p>
+  <p><b>中文翻译：</b><br>交通的刺耳噪音让人难以集中注意力。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>反义词可记 euphony（悦耳声音）。caco- 常带坏、不好。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>172. cadence</h2><button class="smallbtn" onclick='playBoth("cadence", "The poem’s gentle cadence made it pleasant to read aloud.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("cadence",0.78)'>🔊 <span class="word">cadence</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/ˈkeɪ.dəns/</p>
+  <p class="spell"><b>拼读：</b>KAY-duns</p>
+  <div class="info"><p><b>中文：</b>节奏；抑扬顿挫</p><p><b>英文：</b>rhythm or flow of sound</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The poem’s gentle cadence made it pleasant to read aloud.",0.82)'>🔊 The poem’s gentle cadence made it pleasant to read aloud.</button>
+  <p><b>SAT例句：</b><br>The poem’s gentle cadence made it pleasant to read aloud.</p>
+  <p><b>中文翻译：</b><br>这首诗柔和的节奏使它朗读起来很悦耳。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>诗歌、演讲、音乐中常见。注意与 rhythm 接近。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>173. cajole</h2><button class="smallbtn" onclick='playBoth("cajole", "She tried to cajole her brother into helping with the project.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("cajole",0.78)'>🔊 <span class="word">cajole</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/kəˈdʒoʊl/</p>
+  <p class="spell"><b>拼读：</b>kuh-JOHL</p>
+  <div class="info"><p><b>中文：</b>哄骗；劝诱</p><p><b>英文：</b>to persuade with flattery or gentle urging</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("She tried to cajole her brother into helping with the project.",0.82)'>🔊 She tried to cajole her brother into helping with the project.</button>
+  <p><b>SAT例句：</b><br>She tried to cajole her brother into helping with the project.</p>
+  <p><b>中文翻译：</b><br>她试图哄劝哥哥帮忙完成项目。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>和 blandish 接近，都是用好话劝诱。</p></details>
+</article>
+
+<article class="card">
+  <div class="topline"><h2>174. calamity</h2><button class="smallbtn" onclick='playBoth("calamity", "The earthquake was a calamity that changed the town forever.")'>▶ 连读</button></div>
+  <button class="sound" onclick='speak("calamity",0.78)'>🔊 <span class="word">calamity</span></button>
+  <p class="ipa"><b>IPA 音标：</b>/kəˈlæm.ə.t̬i/</p>
+  <p class="spell"><b>拼读：</b>kuh-LAM-uh-tee</p>
+  <div class="info"><p><b>中文：</b>灾难；大祸</p><p><b>英文：</b>a disaster or great misfortune</p></div>
+  <p class="sub"><b>例句发音：</b></p>
+  <button class="sound sentence" onclick='speak("The earthquake was a calamity that changed the town forever.",0.82)'>🔊 The earthquake was a calamity that changed the town forever.</button>
+  <p><b>SAT例句：</b><br>The earthquake was a calamity that changed the town forever.</p>
+  <p><b>中文翻译：</b><br>这场地震是一场改变小镇命运的灾难。</p>
+  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>比 problem 严重得多，指大灾难、大不幸。SAT高频。</p></details>
+</article>
+
+
+<h1 id="reading" class="section-title">Day 6 SAT Reading｜The Bard's Final Gift</h1>
+<section class="panel">
+  <div class="audio-controls">
+    <button class="topbtn" onclick="playStory()">🔊 朗读短文</button>
+    <button class="topbtn gray" onclick="pauseSpeech()">⏸ 暂停</button>
+    <button class="topbtn gray" onclick="resumeSpeech()">▶ 继续</button>
+    <button class="topbtn gray" onclick="stopSpeech()">⏹ 停止</button>
+  </div>
+  <p class="story">In a noisy town ruled by a bombastic mayor, a young bard named Milo tried to bring peace through music. The town had suffered a calamity when a storm damaged the old bridge, and the people were bereft of hope. A benevolent artisan offered help, but a brazen merchant tried to bilk the villagers by selling weak wood at a high price.
+
+Milo, though bashful, noticed the merchant’s bias against the poor. He decided to beseech the town council for help. At first, the council was brusque, but Milo did not balk. He used a gentle cadence in his speech and tried to cajole them with a ballad about courage and kindness.
+
+The song became a boon to the village. It helped assuage people’s fear and buttress their belief that the bridge could be rebuilt. In the end, the town chose honesty over avarice, and the repaired bridge became an auspicious sign of a better future.</p>
+</section>
+<section class="panel"><h2>Main Idea 主旨句题</h2><p><b>Q.</b> Which sentence best states the main idea of the passage?</p>
+<details class="answerbox"><summary>点击显示答案</summary><p>Even after a calamity, honesty, courage, and art can help a community overcome fear and rebuild hope.</p></details></section>
+<section class="panel"><h2>Reading Questions｜答案隐藏版</h2><ol><li><b>Q1.</b> What is the main idea of the story?
+    <details class="answerbox"><summary>点击显示答案</summary><p>A young bard helps a troubled town regain hope and choose honesty after a disaster.</p></details></li><li><b>Q2.</b> Why was the merchant described as brazen?
+    <details class="answerbox"><summary>点击显示答案</summary><p>Because he shamelessly tried to cheat the villagers after a disaster.</p></details></li><li><b>Q3.</b> Which word in the story means “a great disaster”?
+    <details class="answerbox"><summary>点击显示答案</summary><p>calamity.</p></details></li><li><b>Q4.</b> How did Milo persuade the council?
+    <details class="answerbox"><summary>点击显示答案</summary><p>He used a gentle speech and a ballad to appeal to their emotions.</p></details></li><li><b>Q5.</b> What does the repaired bridge symbolize?
+    <details class="answerbox"><summary>点击显示答案</summary><p>Hope, unity, honesty, and a better future.</p></details></li></ol></section>
+
+<h1 id="cloze" class="section-title">Vocabulary Cloze｜单词填空练习</h1>
+<section class="panel"><p>请根据上下文填入 Day6 单词。答案默认隐藏，完成后再点击查看。</p><ol><li>The young ________ sang a ballad to calm the frightened villagers.
+    <details class="answerbox"><summary>点击显示答案</summary><p>bard</p></details></li><li>The storm became a terrible ________ for the town.
+    <details class="answerbox"><summary>点击显示答案</summary><p>calamity</p></details></li><li>The ________ donor offered money to repair the bridge.
+    <details class="answerbox"><summary>点击显示答案</summary><p>benevolent</p></details></li><li>The merchant tried to ________ the villagers with weak wood.
+    <details class="answerbox"><summary>点击显示答案</summary><p>bilk</p></details></li><li>Milo was ________, so he spoke softly at first.
+    <details class="answerbox"><summary>点击显示答案</summary><p>bashful</p></details></li><li>The council’s first reply was short and ________.
+    <details class="answerbox"><summary>点击显示答案</summary><p>brusque</p></details></li><li>Milo used a gentle ________ to make his speech sound peaceful.
+    <details class="answerbox"><summary>点击显示答案</summary><p>cadence</p></details></li><li>The song became a ________ to the whole village.
+    <details class="answerbox"><summary>点击显示答案</summary><p>boon</p></details></li><li>Statistics can help ________ an argument.
+    <details class="answerbox"><summary>点击显示答案</summary><p>buttress</p></details></li><li>The researcher tried to remove ________ from the survey.
+    <details class="answerbox"><summary>点击显示答案</summary><p>bias</p></details></li></ol></section>
+<div class="footer">End of Day 6 · Words 146–174</div>
+</main>
+<script>
+const storyText="In a noisy town ruled by a bombastic mayor, a young bard named Milo tried to bring peace through music. The town had suffered a calamity when a storm damaged the old bridge, and the people were bereft of hope. A benevolent artisan offered help, but a brazen merchant tried to bilk the villagers by selling weak wood at a high price.\n\nMilo, though bashful, noticed the merchant’s bias against the poor. He decided to beseech the town council for help. At first, the council was brusque, but Milo did not balk. He used a gentle cadence in his speech and tried to cajole them with a ballad about courage and kindness.\n\nThe song became a boon to the village. It helped assuage people’s fear and buttress their belief that the bridge could be rebuilt. In the end, the town chose honesty over avarice, and the repaired bridge became an auspicious sign of a better future.";
+const allItems=[{"word": "bard", "sentence": "Shakespeare is often regarded as the greatest bard in English literature."}, {"word": "bashful", "sentence": "The bashful student spoke softly during the class presentation."}, {"word": "battery", "sentence": "The scientist tested the battery before starting the experiment."}, {"word": "beguile", "sentence": "The magician used clever tricks to beguile the audience."}, {"word": "behemoth", "sentence": "The small company grew into a behemoth in the technology industry."}, {"word": "benevolent", "sentence": "The benevolent donor paid for the students’ art supplies."}, {"word": "benign", "sentence": "The doctor said the tumor was benign and not dangerous."}, {"word": "bequeath", "sentence": "The old artist chose to bequeath his studio to young painters."}, {"word": "berate", "sentence": "The coach did not berate the team after the loss; he encouraged them instead."}, {"word": "bereft", "sentence": "After the storm, the family was bereft of shelter and food."}, {"word": "beseech", "sentence": "The villagers beseeched the leader for help during the famine."}, {"word": "bias", "sentence": "The researcher tried to remove bias from the survey."}, {"word": "bilk", "sentence": "The dishonest seller tried to bilk customers with fake products."}, {"word": "blandish", "sentence": "He tried to blandish the judge with excessive praise."}, {"word": "blemish", "sentence": "One small blemish on the painting lowered its value."}, {"word": "blight", "sentence": "Poverty became a blight on the once thriving town."}, {"word": "boisterous", "sentence": "The boisterous children filled the room with laughter."}, {"word": "bombastic", "sentence": "The speaker’s bombastic speech sounded grand but said little."}, {"word": "boon", "sentence": "The new library was a boon to students in the community."}, {"word": "bourgeois", "sentence": "The novel mocked bourgeois values and social ambition."}, {"word": "brazen", "sentence": "The brazen thief stole the wallet in broad daylight."}, {"word": "brusque", "sentence": "His brusque reply made the visitor feel unwelcome."}, {"word": "buffet", "sentence": "Strong waves began to buffet the small boat."}, {"word": "burnish", "sentence": "The leader tried to burnish his reputation after the scandal."}, {"word": "buttress", "sentence": "The writer used statistics to buttress her argument."}, {"word": "cacophony", "sentence": "The cacophony of traffic made it hard to concentrate."}, {"word": "cadence", "sentence": "The poem’s gentle cadence made it pleasant to read aloud."}, {"word": "cajole", "sentence": "She tried to cajole her brother into helping with the project."}, {"word": "calamity", "sentence": "The earthquake was a calamity that changed the town forever."}];let selectedVoice=null;
+function loadVoice(){const voices=window.speechSynthesis.getVoices();selectedVoice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Allison|Susan|Jenny|Aria|Google US English|Microsoft/i.test(v.name))||voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang&&v.lang.startsWith('en'))||null;}
+if('speechSynthesis'in window){loadVoice();window.speechSynthesis.onvoiceschanged=loadVoice;}
+function makeUtterance(text,rate=0.82){const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate;u.pitch=1;u.volume=1;if(selectedVoice)u.voice=selectedVoice;return u;}
+function speak(text,rate=0.82){if(!('speechSynthesis'in window)){alert('这个浏览器不支持语音朗读。请用 Safari、Chrome 或 Edge 打开。');return;}window.speechSynthesis.cancel();loadVoice();window.speechSynthesis.speak(makeUtterance(text,rate));}
+function playStory(){
+  if(!('speechSynthesis'in window)){alert('这个浏览器不支持语音朗读。请用 Safari、Chrome 或 Edge 打开。');return;}
+  window.speechSynthesis.cancel();
+  loadVoice();
+  window.speechSynthesis.speak(makeUtterance(storyText,0.82));
+}
+function pauseSpeech(){
+  if('speechSynthesis' in window && window.speechSynthesis.speaking){
+    window.speechSynthesis.pause();
+  }
+}
+function resumeSpeech(){
+  if('speechSynthesis' in window && window.speechSynthesis.paused){
+    window.speechSynthesis.resume();
+  }
+}
+function stopSpeech(){
+  if('speechSynthesis' in window){
+    window.speechSynthesis.cancel();
+  }
+}
+function playBoth(word,sentence){window.speechSynthesis.cancel();loadVoice();const u1=makeUtterance(word,.76);const u2=makeUtterance(sentence,.82);u1.onend=()=>setTimeout(()=>window.speechSynthesis.speak(u2),350);window.speechSynthesis.speak(u1);}
+function playAll(){window.speechSynthesis.cancel();loadVoice();let i=0;function next(){if(i>=allItems.length)return;const item=allItems[i++];const u1=makeUtterance(item.word,.76);const u2=makeUtterance(item.sentence,.82);u1.onend=()=>setTimeout(()=>window.speechSynthesis.speak(u2),300);u2.onend=()=>setTimeout(next,500);window.speechSynthesis.speak(u1);}next();}
+</script>
+</body></html>
